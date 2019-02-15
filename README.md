@@ -27,7 +27,7 @@ Please see platform specific notes below.
 I have made linux wheels using the project [gdalmanylinux](https://github.com/youngpm/gdalmanylinux).
 
 ## Windows
-All wheels are taken from Christoph Gohlke's excellent [collection](https://www.lfd.uci.edu/~gohlke/pythonlibs/) of python packages compiled for windows. As such all Christoph's comments applies to the windows wheels in this repository:
+All wheels are taken from Christoph Gohlke's excellent [collection](https://www.lfd.uci.edu/~gohlke/pythonlibs/) of python packages compiled for windows. As such all Christoph's comments apply to the windows wheels in this repository:
 
 > This distribution includes a complete GDAL installation. Do not use together with OSGeo4W or gdalwin32.
 Built with KML, HDF5, NetCDF, SpatiaLite, PostGIS, GEOS, PROJ.4 etc.
