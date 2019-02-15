@@ -10,7 +10,18 @@ This repo is a collection of GDAL binary wheels. The files are from different so
 
 ## Howto
 
-Go to
+Go to [releases](//github.com/AsgerPetersen/gdalwheels/releases) and find the file which fits your python version and operating system.
+
+The naming convention is as follows:
+`GDAL-{GDAL-version}-{python tag}-{abi tag}-{platform tag}.whl`
+
+So, if you are using Python 2.7 32bit on windows, you are looking for files ending in `cp27-cp27m-win32.whl`.
+
+When you have found a suitable file (let's say it is `GDAL-2.2.4-cp27-cp27m-win32.whl`), then you can install it directly with pip using the URL:
+```bash
+pip install https://github.com/AsgerPetersen/gdalwheels/releases/download/2.2.4_1/GDAL-2.2.4-cp27-cp27m-win32.whl
+```
+Please see platform specific notes below.
 
 ## Linux
 I have made linux wheels using the project [gdalmanylinux](https://github.com/youngpm/gdalmanylinux).
