@@ -43,5 +43,5 @@ And
 The reason for copying the wheels from Christophs site to this repository is that Christoph states: _"Please only download files manually as needed."_
 
 ## OSX
-Haven't figurd this one out yet.
+Haven't figured this one out yet.
 
